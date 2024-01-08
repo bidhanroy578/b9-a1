@@ -1,0 +1,51 @@
+main {
+    width: 82.5rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.font-inter{
+    font-family: 'Inter', sans-serif;
+}
+.font-meri{
+    font-family: 'Merriweather', serif;
+}
+.banner{
+    background-image: url('../resources/Banner\ Image.png');
+    background-color: rgba(0, 0, 0, 0.709);
+    background-blend-mode: hue;
+    background-repeat: no-repeat;
+    height: 37.5rem;
+    font-family: 'Merriweather', serif;
+    border-radius: 1rem;
+}
+.banner > h3 {
+    color: white;
+    padding-top: 11.06rem;
+    padding-bottom: 0;
+    text-align: center;
+    /* font-family: Merriweather; */
+    font-size: 2rem;
+    /* font-style: normal; */
+    font-weight: 400;
+
+
+}
+.banner > p {
+    color: white;
+/* padding: 14.56rem 21.5rem 11.06rem 21.5rem ; */
+padding-bottom: 11.06rem;
+padding-left: 21.5rem;
+padding-right: 21.5rem;
+text-align: center;
+/* text-align: justify; */
+/* font-family: Merriweather; */
+font-size: 4.5rem;
+/* font-style: normal; */
+font-weight: 900;
+line-height: 5.9375rem;
+
+/* border-radius: 5rem; */
+}
+
+
+

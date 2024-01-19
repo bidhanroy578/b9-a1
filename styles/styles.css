@@ -1,18 +1,22 @@
-main {
+header , main {
     width: 82.5rem;
     margin-left: auto;
     margin-right: auto;
 }
+
 .font-inter{
     font-family: 'Inter', sans-serif;
 }
 .font-meri{
     font-family: 'Merriweather', serif;
 }
+
+
+
 .banner{
     background-image: url('../resources/Banner\ Image.png');
     background-color: rgba(0, 0, 0, 0.709);
-    background-blend-mode: hue;
+    background-blend-mode: darken;
     background-repeat: no-repeat;
     height: 37.5rem;
     font-family: 'Merriweather', serif;
@@ -28,7 +32,6 @@ main {
     /* font-style: normal; */
     font-weight: 400;
 
-
 }
 .banner > p {
     color: white;
@@ -43,6 +46,7 @@ font-size: 4.5rem;
 /* font-style: normal; */
 font-weight: 900;
 line-height: 5.9375rem;
-
 /* border-radius: 5rem; */
 }
+
+

@@ -49,4 +49,34 @@ line-height: 5.9375rem;
 /* border-radius: 5rem; */
 }
 
+/* 
+color: #F00;
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal; */
 
+.offer65{
+    text-align: center;
+}
+.offer65 > h3 {
+    color: #F00;
+    font-family: Inter;
+font-size: 88px;
+margin-bottom: 3rem;
+}
+.l1{
+    color: #F00;
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 500;
+margin-bottom: 0;
+}
+.l2{
+    margin-top: 1rem;
+font-family: Inter;
+font-size: 3rem;
+font-weight: 700;
+}

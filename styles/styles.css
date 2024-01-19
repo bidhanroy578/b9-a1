@@ -24,6 +24,7 @@ main {
     font-family: 'Merriweather', serif;
     border-radius: 1rem;
 }
+
 .banner>h3 {
     color: white;
     padding-top: 11.06rem;
@@ -35,6 +36,7 @@ main {
     font-weight: 400;
 
 }
+
 .banner>p {
     color: white;
     /* padding: 14.56rem 21.5rem 11.06rem 21.5rem ; */
@@ -56,12 +58,14 @@ main {
 .offer65 {
     text-align: center;
 }
+
 .offer65>h3 {
     color: #F00;
     font-family: Inter;
     font-size: 88px;
     margin-bottom: 3rem;
 }
+
 .l1 {
     color: #F00;
     font-family: Inter;
@@ -69,10 +73,60 @@ main {
     font-weight: 500;
     margin-bottom: 0;
 }
+
 .l2 {
     margin-top: 1rem;
     font-family: Inter;
     font-size: 3rem;
     font-weight: 700;
 }
+
+
+
+.welcome {
+    margin-top: 7rem;
+    background-image: url(../resources/Vectorrr.png);
+    /* width: 82.5rem;
+    height: 37.5rem; */
+    /* background-color: rgba(0, 0, 0, 0.20); */
+    /* background-blend-mode: darken; */
+    background-repeat: no-repeat;
+    width: 82.5rem;
+    height: 37.5rem;
+    padding-left: 7.88rem;
+    padding-top: 7.88rem;
+}
+
+.welcome>h2 {
+    margin: 0;
+    padding: 0;
+    width: 40.125rem;
+    color: #FFF;
+    font-family: Merriweather;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 5.5rem;
+    letter-spacing: 0.44rem;
+}
+
+.welcome>p {
+    width: 43.5625rem;
+    color: rgba(255, 255, 255, 0.80);
+    font-family: Inter;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.welcome>a {
+    display: block;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 700;
+    text-decoration: none;
+}
+
 

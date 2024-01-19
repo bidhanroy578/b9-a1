@@ -130,3 +130,39 @@ main {
 }
 
 
+
+.vanue {
+    background-color: rgba(255, 0, 0, 0.10);
+    width: 82.5rem;
+    height: 30.125rem;
+    border-radius: 2rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.vanue>p {
+    font-family: Inter;
+    font-size: 2rem;
+    font-weight: 600;
+    line-height: 1rem;
+}
+
+.vanue>p>span {
+    color: #F00;
+}
+
+.vanue>button {
+    background-color: red;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+
+}
+
+.vanue>button>a {
+    color: white;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    text-decoration: none;
+}

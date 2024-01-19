@@ -166,3 +166,62 @@ main {
     font-weight: 700;
     text-decoration: none;
 }
+
+
+
+.comingOffer {
+    margin-top: 5rem;
+}
+
+.comingOffer>main>div {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 33%;
+
+}
+
+.comingOffer>main>div.left>h3 {
+    color: red;
+    color: #F00;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0;
+}
+
+.comingOffer>main>div.left>h4 {
+    color: #070211;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
+}
+
+.comingOffer>main>div.left>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+div.middle {}
+
+div.right>p {
+    color: red;
+    font-family: Inter;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+div.right>p>span {
+    display: block;
+    margin-top: 2rem;
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
+
+

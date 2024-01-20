@@ -256,7 +256,7 @@ margin-right: auto;
 }
 .poster>div{
     /* border: 2rem solid red; */
-    background-image: url(/resources/Rectangle\ 1.png);
+    background-image: url(../resources/Rectangle\ 1.png);
     border-radius: 1rem 1rem 0rem 0rem;
     width: 100%;
     height: 27.0625rem;
@@ -270,7 +270,7 @@ margin-right: auto;
 .poster>div2{
     box-sizing: border-box;
     display: block;
-    background-image: url(/resources/Rectangle\ 2.png);
+    background-image: url(../resources/Rectangle\ 2.png);
     height: 14.3125rem;
     
 }

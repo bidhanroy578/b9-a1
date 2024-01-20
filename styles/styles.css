@@ -205,7 +205,9 @@ main {
     line-height: 2rem;
 }
 
-div.middle {}
+div.middle {
+    
+}
 
 div.right>p {
     color: red;
@@ -343,7 +345,7 @@ div.right>p>span {
     font-family: Merriweather;
     font-size: 3rem;
     font-weight: 900;
-    
+
 }
 
 .subscribe>p {
@@ -384,7 +386,7 @@ div.right>p>span {
 }
 
 
-footer{
+footer {
     height: 38.0625rem;
     flex-shrink: 0;
     background-color: black;
@@ -392,46 +394,53 @@ footer{
     margin-top: 5rem;
 }
 
-footer>main>ul>ul{
+footer>main>ul>ul {
     display: inline-block;
     box-sizing: content-box;
     width: 45%;
     margin-top: 4rem;
 }
-footer>main>ul>ul>li{
+
+footer>main>ul>ul>li {
     color: #FFF;
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 500;
-line-height: 2.5rem;
-list-style: none;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 2.5rem;
+    list-style: none;
 }
-.icons{
+
+.icons {
     text-align: center;
     margin-top: 6rem;
     word-spacing: 1rem;
 }
-.hrline{
+
+.hrline {
     margin-top: 2rem;
     border: 0.0625rem solid rgba(255, 255, 255, 0.15);
 }
-footer>main>p{
+
+footer>main>p {
     display: inline-block;
     box-sizing: border-box;
     width: 49%;
 }
-.footer1{
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 500;
+
+.footer1 {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
-.footer2{
-text-align: end;
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 500;
+
+.footer2 {
+    text-align: end;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
-.footer2>a{
+
+.footer2>a {
     text-decoration: none;
     color: white;
 }

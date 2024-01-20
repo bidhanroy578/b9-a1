@@ -280,3 +280,45 @@ margin-right: auto;
     margin-left: -25rem; */
     margin: -27rem 0 0 -30rem;
 }
+
+
+.portfolio{
+    margin-top: 7rem;
+}
+.portfolio>h3{
+    color: #F00;
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 500;
+margin: 0 0 1rem 0;
+}
+.portfolio>h4{
+    color: #070211;
+font-family: Merriweather;
+font-size: 3rem;
+font-weight: 900;
+margin: 0;
+}
+.portfolio>p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 400;
+line-height: 2rem; 
+width: 56rem;
+}
+.portfolio>div>ul{
+    margin: 0;
+    padding: 0;
+}
+.portfolio>div>ul>li{
+    display: inline-block;
+    text-decoration: none;
+    margin: 0 0.6rem 0.6rem 0;
+}
+/* .portfolio>div>ul>li>li{
+    display: block;
+    border-inline-end-width: 34%;
+    margin-left: auto;
+    margin-right: auto;
+} */

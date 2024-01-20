@@ -225,3 +225,52 @@ div.right>p>span {
 
 
 
+.holidayCell{
+    text-align: center;
+}
+.holidayCell>div>h3{
+font-family: Inter;
+font-size: 1.5rem;
+font-weight: 500;
+}
+.holidayCell>div>h3>p{
+    display: block;
+    color: red;
+font-family: Merriweather;
+font-size: 4.5rem;
+font-weight: 900;
+margin: 0;
+}
+.holidayCell>div>h3>p>span{
+    color: black;
+}
+.holidayCell>div>p{
+    color: rgba(7, 2, 17, 0.60);
+font-family: Inter;
+font-size: 1.25rem;
+font-weight: 500;
+line-height: 2rem;
+width: 66.75rem;
+margin-left: auto;
+margin-right: auto;
+}
+.poster>div{
+    /* border: 2rem solid red; */
+    background-image: url(/resources/Rectangle\ 1.png);
+    border-radius: 1rem 1rem 0rem 0rem;
+    width: 100%;
+    height: 27.0625rem;
+    background-repeat: no-repeat;
+    background-position-x: 100%;
+}
+.poster>div>img{
+    margin-top: 4.5rem;
+    margin-left: 35%;
+}
+.poster>div2{
+    box-sizing: border-box;
+    display: block;
+    background-image: url(/resources/Rectangle\ 2.png);
+    height: 14.3125rem;
+    
+}

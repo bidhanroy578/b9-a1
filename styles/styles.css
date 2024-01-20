@@ -274,3 +274,9 @@ margin-right: auto;
     height: 14.3125rem;
     
 }
+.poster>div2>img{
+    /* display: block; */
+    /* margin-top: -25rem;
+    margin-left: -25rem; */
+    margin: -27rem 0 0 -30rem;
+}

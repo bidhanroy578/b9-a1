@@ -225,36 +225,41 @@ div.right>p>span {
 
 
 
-.holidayCell{
+.holidayCell {
     text-align: center;
 }
-.holidayCell>div>h3{
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 500;
+
+.holidayCell>div>h3 {
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
 }
-.holidayCell>div>h3>p{
+
+.holidayCell>div>h3>p {
     display: block;
     color: red;
-font-family: Merriweather;
-font-size: 4.5rem;
-font-weight: 900;
-margin: 0;
+    font-family: Merriweather;
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin: 0;
 }
-.holidayCell>div>h3>p>span{
+
+.holidayCell>div>h3>p>span {
     color: black;
 }
-.holidayCell>div>p{
+
+.holidayCell>div>p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 1.25rem;
-font-weight: 500;
-line-height: 2rem;
-width: 66.75rem;
-margin-left: auto;
-margin-right: auto;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 500;
+    line-height: 2rem;
+    width: 66.75rem;
+    margin-left: auto;
+    margin-right: auto;
 }
-.poster>div{
+
+.poster>div {
     /* border: 2rem solid red; */
     background-image: url(../resources/Rectangle\ 1.png);
     border-radius: 1rem 1rem 0rem 0rem;
@@ -263,18 +268,21 @@ margin-right: auto;
     background-repeat: no-repeat;
     background-position-x: 100%;
 }
-.poster>div>img{
+
+.poster>div>img {
     margin-top: 4.5rem;
     margin-left: 35%;
 }
-.poster>div2{
+
+.poster>div2 {
     box-sizing: border-box;
     display: block;
     background-image: url(../resources/Rectangle\ 2.png);
     height: 14.3125rem;
-    
+
 }
-.poster>div2>img{
+
+.poster>div2>img {
     /* display: block; */
     /* margin-top: -25rem;
     margin-left: -25rem; */
@@ -282,43 +290,104 @@ margin-right: auto;
 }
 
 
-.portfolio{
+.portfolio {
     margin-top: 7rem;
 }
-.portfolio>h3{
+
+.portfolio>h3 {
     color: #F00;
-font-family: Inter;
-font-size: 1.5rem;
-font-weight: 500;
-margin: 0 0 1rem 0;
+    font-family: Inter;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin: 0 0 1rem 0;
 }
-.portfolio>h4{
+
+.portfolio>h4 {
     color: #070211;
-font-family: Merriweather;
-font-size: 3rem;
-font-weight: 900;
-margin: 0;
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    margin: 0;
 }
-.portfolio>p{
+
+.portfolio>p {
     color: rgba(7, 2, 17, 0.60);
-font-family: Inter;
-font-size: 1.25rem;
-font-weight: 400;
-line-height: 2rem; 
-width: 56rem;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 56rem;
 }
-.portfolio>div>ul{
+
+.portfolio>div>ul {
     margin: 0;
     padding: 0;
 }
-.portfolio>div>ul>li{
+
+.portfolio>div>ul>li {
     display: inline-block;
     text-decoration: none;
     margin: 0 0.6rem 0.6rem 0;
 }
+
 /* .portfolio>div>ul>li>li{
     display: block;
     border-inline-end-width: 34%;
     margin-left: auto;
     margin-right: auto;
 } */
+
+
+
+.subscribe {
+    margin-top: 5rem;
+    background-color: rgba(255, 0, 0, 0.10);
+    height: 38.5rem;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 5rem;
+}
+
+.subscribe>h3 {
+    font-family: Merriweather;
+    font-size: 3rem;
+    font-weight: 900;
+    
+}
+
+.subscribe>p {
+    color: rgba(7, 2, 17, 0.60);
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 400;
+    line-height: 2rem;
+    width: 56rem;
+    margin: 0 auto 3rem auto;
+}
+
+.subscribe>div>input {
+    width: 30rem;
+    height: 4.5rem;
+    border-radius: 4rem 0 0 4rem;
+    border: none;
+    padding-left: 3rem;
+}
+
+.subscribe>div>button {
+    height: 4.5rem;
+    width: 13.125rem;
+    background-color: red;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 1.25rem;
+    font-weight: 600;
+    border-radius: 0 4rem 4rem 0;
+    border: none;
+}
+
+.subscribe>div>input[placeholder] {
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 1.125rem;
+    font-weight: 400;
+}
